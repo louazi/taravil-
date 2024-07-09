@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <mota name="viewport" content="device-width, initial-scale=1.0">
+    <title>Oth.Morocco Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="https://fonts.googlepis.com/css2?family=Poppins:Wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu-bar"class="fas fa-bars" onclick="showmenu()"></div>
+        <a href="" class="logo"><span>T</span>rips to <span>M</span>orocco</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallary">gallary</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+            <i class="fas fa-user"onclick="showform()"></i>
+        </div>
+
+    </header>
+
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideform()"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class= "box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="rememder">
+            <input for="rememder">remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have acount? <a href="">sign up</a></p>
+        </form>
+    </div>
+
+    <!-------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="home"id="home">
+        <div class="content">
+            <h3>MAKING TRAVEL EASY IN MOROCCO</h3>
+            <p>Exploration Trips Across Morocco With Its Diverse Culture</p>
+            <a href="#"class="btn">Discover More</a>
+        </div>
+
+        <div class="controls">
+            <span class="video-btn blue" data-src="imegi/vid-5"></span>
+            <span class="video-btn" data-src="imegi/vid-5"></span>
+            <span class="video-btn"data-src="imegi/vid-5"></span>
+            <span class="video-btn"data-src="imegi/vid-3"></span>
+            <span class="video-btn"data-src="imegi/vid-4"></span>
+            <span class="video-btn"data-src="imegi/vid-1"></span>
+        </div>
+        <div class="video-container">
+            <video src="imegi/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+        <div class="video-container">
+            <video src="imegi/vid-5.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+
+    <!-------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="imegi/mi-23.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Marrakech</h3>
+                    <p>Fairmont Royal Palm Marrakech</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">890dh <span>950dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mi-12.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Casablanca</h3>
+                    <p>Four Seasons Hotel Casablanca</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">900dh <span>1050dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mi-11.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Tanger</h3>
+                    <p>Dixil Garden Tanger Malabata</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">1000dh <span>1050dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mi-10.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Fès</h3>
+                    <p>Les Mérinides</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">950dh <span>1050dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mi-14.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Dakhla</h3>
+                    <p>Westpoint Dakhla Hotel</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">1500dh <span>1650dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mi-15.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Beni mellal</h3>
+                    <p>Hôtel Al Bassatine</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">450dh <span>500dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/o-1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Ouarzazate</h3>
+                    <p>ibis Ouarzazate Centre -All</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">700dh <span>890dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div> 
+            </div>
+            <div class="box">
+                <img src="imegi/o-2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Agadir</h3>
+                    <p>Sofitel Agadir Royal Bay Resort</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">1050dh <span>1390dh</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div> 
+            </div>
+        </div>    
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotel</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food And Drinks</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safty Guide</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around The World</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>Lorem lpsum Dolor Sit Amet Consectetur,Adipisicing Elit. Voluptas Vitae Eveniet Sit Nemo Omnis Deleniti Veniam Perferendis Numquam,Corporis Aliquid.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------>
+
+    <section class="gallary" id="gallary">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="imegi/tanneries-medina-of-fez-morocco-wizard8492.jpg" alt="">
+                <div class="content">
+                    <h3>Fès</h3>
+                    <p>"Fes is a historic city in Morocco, featuring an old Medina and the University of Al Quaraouiyine."</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/kasbah-maroc-530x400.jpeg" alt="">
+                <div class="content">
+                    <h3>Ouarzazate</h3>
+                    <p>Ouarzazate: Sahara Gateway, Kasbahs, Film Location.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/iStock-1360012506.jpg" alt="">
+                <div class="content">
+                    <h3>Dakhla</h3>
+                    <p>Dakhla: Rich culture, history, vibrant market, desert proximity.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/10.jpg" alt="">
+                <div class="content">
+                    <h3>Marrakech</h3>
+                    <p>Marrakech: Vibrant city, historic medina, bustling souks, cultural hub.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/f-1.jpg" alt="">
+                <div class="content">
+                    <h3>Rabat</h3>
+                    <p>Rabat: Capital city, historical landmarks, coastal location, governmental center.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/f-2.jpg" alt="">
+                <div class="content">
+                    <h3>Tangier</h3>
+                    <p>Tangier: Coastal city, historic port, cultural diversity, strategic location.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/f-5.jpg" alt="">
+                <div class="content">
+                    <h3>Oued laou</h3>
+                    <p>Oued Laou: Mountainous town, stunning nature, Amazigh culture, traditional heritage.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/f-6.jpg" alt="">
+                <div class="content">
+                    <h3>Azrou Waterfalls</h3>
+                    <p>Azrou Waterfalls: Scenic natural beauty, refreshing waterfalls, hiking trails, picturesque surroundings.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/f-4.jpg" alt="">
+                <div class="content">                      
+                    <h3>Meknes</h3>
+                    <p>Meknes: Historic city, imperial architecture, UNESCO World Heritage Site, cultural richness.</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/WhatsApp Image 2024-03-09 at 00.10.45_b45d693e.jpg" alt="">
+                <div class="content">
+                    <h3>Asfi (El Jadida)</h3>
+                    <p>Asfi (El Jadida): Coastal city, historic Portuguese influence, fortified walls, beachfront promenade.</p>
+                    <a href="" class="btn">See more</a>
+            </div>
+            <div class="box">
+                <img src="imegi/h-1.jpg" alt="">
+                <div class="content">
+                    <h3>Asfi (El Jadida)</h3>
+                    <p>Asfi (El Jadida): Coastal city, historic Portuguese influence, fortified walls, beachfront promenade.</p>
+                    <a href="" class="btn">See more</a>
+            </div>
+            <div class="box">
+                <img src="imegi/h-2.jpg" alt="">
+                <div class="content">
+                    <h3>Asfi (El Jadida)</h3>
+                    <p>Asfi (El Jadida): Coastal city, historic Portuguese influence, fortified walls, beachfront promenade.</p>
+                    <a href="" class="btn">See more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------->
+
+            
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>l</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-1.jpg" alt="">
+                        <h3>lo_othmane</h3>
+                        <p>Vielen Dank an Marokko für die herzliche Gastfreundschaft und die reiche kulturelle Vielfalt.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-2.jpg" alt="">
+                        <h3>Da_ossama</h3>
+                        <p>أشكر المغرب على كرم الضيافة وجمال الثقافة العريقة</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-3.jpg" alt="">
+                        <h3>ha_chafik</h3>
+                        <p>Gracias a Marruecos por su cálida hospitalidad y su rica diversidad cultural</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-4.jpg" alt="">
+                        <h3>Markazi mohamad</h3>
+                        <p>Thank you to Morocco for its warm hospitality and rich cultural diversity</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-5.jpg" alt="">
+                        <h3>Mestafa</h3>
+                        <p>Grazie al Marocco per la calorosa ospitalità e la ricca diversità culturale</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="box">
+                        <img src="imegi/r-7.jpg" alt="">
+                        <h3>Adam_faid</h3>
+                        <p>Je tiens à remercier le Maroc pour son accueil chaleureux et sa riche diversité culturelle.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="imegi/lo-1.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <input type="numder" placeholder="numder">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+
+     <!------------------------------------------------------------------------------------------->  
+     <!-------------------------------------------------------------------------------------------> 
+
+     <section class="gallary" id="gallary">
+        <h1 class="heading">
+            <span>e</span>
+            <span>a</span>
+            <span>t</span>
+            <span>e</span>
+            <span>r</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="imegi/m-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mt-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/u-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/u-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mt-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mt-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/mt-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imegi/u-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuge?</p>
+                    <a href="" class="btn">See more</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------->
+
+    <section class="gallary" id="gallary">
+        <h1 class="heading">
+            <span>à</span>
+            &nbsp;
+            &nbsp;
+            <span>p</span>
+            <span>r</span>
+            <span>o</span>
+            <span>p</span>
+            <span>o</span>
+            <span>s</span>
+            &nbsp;
+            &nbsp;
+            <span>d</span>
+            <span>e</span>
+            &nbsp;
+            &nbsp;
+            <span>n</span>
+            <span>o</span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>"We offer services, adventures, and explorations around our country, as well as learning and knowledge acquisition services in various fields such as programming and content creation. Thanks to our country, which represents a cultural hub for society."</p>
+            </div>
+            <div class="box">
+                <h3>barnch</h3>
+                <a href="#">Beni mellal</a>
+                <a href="#">Casablanca</a>
+                <a href="#">Agadir</a>
+                <a href="#">Tanger</a>
+                <a href="#">Dakhla</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallary</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>  
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+        <h1 class="created">Created By <span> Mr.Othmane Louazi</span> All Right Reserved</h1>
+    </section>
+        
+        
+    
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <script src="travel.js"></script>
+</body>
+</html>  
